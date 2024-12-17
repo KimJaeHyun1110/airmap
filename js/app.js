@@ -2,7 +2,7 @@ let allItems = []; // 데이터를 저장할 배열
 
 // 공공데이터 API 키 및 URL
 const API_KEY = "JTsZUUaFx6y8w9jd35PcdP%2B5Ee6OGptiPXfRFcOGqJMlCTw%2BbJdx%2B0ibcvqt9GndQWc3dzRYDJH%2F%2BI06akjd%2Bw%3D%3D";
-const API_URL = "http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty";
+const API_URL = "https://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty";
 
 // DOM 요소
 const regionInput = document.getElementById("regionInput");
