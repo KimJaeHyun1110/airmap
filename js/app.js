@@ -116,7 +116,7 @@ function searchRegion() {
         map.setCenter(position); // 검색한 지역으로 지도 중심 이동
 
         // 검색한 지역에 마커 추가
-        addMarker(found, "gray", `${found.stationName}`, `${rank}위`);
+        addMarker(found, "gray", `${found.stationName}`, `${rank}`);
       }
     });
   } else {
